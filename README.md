@@ -30,6 +30,11 @@ The script produces four graphs (IOPS, Throughput, Request Size per operation an
   * The script will turn it into this:
     ![](https://raw.githubusercontent.com/adlytaibi/ss/master/nfsioplotter/package.gif)
 
+  * Prerequisites
+
+    * Python3 (should also work for python2.7)
+    * python3-matplotlib
+
   * Execution switches and options
     ```
     $ ./nfsioplotter.py -h
